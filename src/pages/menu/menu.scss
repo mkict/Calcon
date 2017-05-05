@@ -1,0 +1,26 @@
+page-menu {
+    ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 1.6em;
+    width: 100%;
+    color: #45171D;
+    background-color: #FFFDFC;
+    opacity: 0.8;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    color: #fff;
+  }
+}

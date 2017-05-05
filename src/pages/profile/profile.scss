@@ -1,0 +1,23 @@
+page-profile {
+    .profilepicsize  {
+        width: 100% !important;  
+        height : 100% !important;  
+        max-width: 160px !important;  //any size
+        max-height: 160px !important; //any size 
+        //center img
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    h3 {
+        text-align: center;
+    }
+    td {
+        padding: 15px;
+        padding-left: 30px;
+    }
+}

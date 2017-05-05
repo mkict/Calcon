@@ -1,0 +1,55 @@
+<ion-header>
+    <ion-navbar color="darkbrown">
+        <button ion-button icon-only menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Menu</ion-title>
+        <ion-buttons end>
+            <button ion-button (click)="openModal()">
+                CalCon
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content scrollbar-y-auto>
+  <ion-card (click)="goToOtherPage(0)">
+    <img src="assets/img/menu_food1.jpg"/>
+    <div class="card-title">Food</div>
+    <!-- <div class="card-subtitle">{{foodnumber}} Listings</div> -->
+  </ion-card>
+
+  <ion-card (click)="goToOtherPage(1)">
+    <img src="assets/img/menu_dessert1.jpg"/>
+    <div class="card-title">Beverage</div>
+    <!-- <div class="card-subtitle">{{beveragenumber}} Listings</div> -->
+  </ion-card>
+
+  <ion-card (click)="goToOtherPage(2)">
+    <img src="assets/img/menu_beverage1.jpg"/>
+    <div class="card-title">Dessert</div>
+    <!-- <div class="card-subtitle">{{dessertnumber}} Listings</div> -->
+  </ion-card>
+
+ <!-- <ion-list>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="assets/img/person.gif">
+      </ion-avatar>
+      <h2>Food</h2>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="assets/img/person.gif">
+      </ion-avatar>
+      <h2>Beverage</h2>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="assets/img/person.gif">
+      </ion-avatar>
+      <h2>Dessert</h2>
+    </ion-item>
+  </ion-list>-->
+</ion-content>

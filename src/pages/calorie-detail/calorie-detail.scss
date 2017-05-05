@@ -1,0 +1,27 @@
+page-calorie-detail {
+	.circle {
+    	margin: auto;
+     	width: 150px;
+        height: 150px;
+        padding-top: 10%;
+        border-radius: 50%;
+        font-size: 20px;
+        color: #fff;
+        line-height: 100px;
+        text-align: center;
+        background: linear-gradient(to bottom, #FECEA8 10%,#E84A5F 100%);
+    }
+    .Calorie-number{
+    	margin: auto;
+    	padding-top: 10%
+    }
+    p{
+    	line-height: 50%;
+    }
+    .Calorie-summary{
+    	padding-top: 10%;
+    }
+    .Calorie-number-time{
+    	float: right;
+    }
+}

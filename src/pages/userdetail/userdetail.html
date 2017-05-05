@@ -1,0 +1,50 @@
+<!--
+  Generated template for the Userdetail page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>User detail</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<div class = "form">
+		<ion-item class="age">
+		    <ion-label floating>Age</ion-label>
+  			<ion-input [(ngModel)]="age"></ion-input>
+		</ion-item>
+		<ion-list class="gender" radio-group no-lines [(ngModel)]="gender">
+			<ion-list-header class="list-header">
+				Gender
+			</ion-list-header>
+			<ion-item no-lines>
+			    <ion-label>Male</ion-label>
+			    <ion-radio checked="true" value="male"></ion-radio>
+			 </ion-item>
+			 <ion-item no-lines>
+			    <ion-label>Female</ion-label>
+			    <ion-radio value="female"></ion-radio>
+			 </ion-item>
+		</ion-list>
+		<ion-item class="weight">
+		    <ion-label floating>Weight</ion-label>
+  			<ion-input [(ngModel)]="weight"></ion-input>
+		</ion-item>
+		<ion-item class="height">
+		    <ion-label floating>Height</ion-label>
+  			<ion-input [(ngModel)]="height"></ion-input>
+		</ion-item>
+		        
+    <div class = "padding">
+      <div text-center>
+				<button ion-button round color="darkbrown" (click)="douserdetail()" >SUBMIT</button>
+			</div>
+    </div>
+	</div>
+</ion-content>

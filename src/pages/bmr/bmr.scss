@@ -1,0 +1,33 @@
+page-bmr {
+    .bmr-topic
+    {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bmr-detail
+    {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .bmr-number
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .button
+    {
+        position: absolute;
+        transition: .5s ease;
+        top: 60%;
+        right: 35%;
+    }
+    .button:hover
+    {
+        background-color: black;
+        color: white;
+    }
+}

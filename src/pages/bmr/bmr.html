@@ -1,0 +1,28 @@
+<!--
+  Generated template for the Bmr page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>BMR</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <ion-item>
+      <div class="bmr-topic"><h1><b>Thank You </b></h1>
+      <p>for your registration.</p>
+      </div>
+    </ion-item>
+    <ion-item no-lines>
+      <div class="bmr-detail">
+          <p>The minimum rate of energy you </p>
+          <p>should consume per day is </p><br>
+      </div>
+      <div class="bmr-number">{{this.bmr}} kcal</div>
+    </ion-item>
+    <button ion-button round outline color="dark" (click)="gotoDashboard()"> Okay </button>
+</ion-content>
